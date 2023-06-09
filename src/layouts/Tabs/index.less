@@ -1,0 +1,27 @@
+.tabsContainer {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  :global {
+    .ant-tabs {
+      height: 100%;
+      .ant-tabs-content-holder {
+        height: inherit;
+        .ant-tabs-content {
+          height: inherit;
+          .ant-tabs-tabpane {
+            height: inherit;
+          }
+        }
+      }
+    }
+  }
+  .tabsHiddenHeader {
+    display: block;
+    :global {
+      .ant-tabs-nav {
+        display: none;
+      }
+    }
+  }
+}
