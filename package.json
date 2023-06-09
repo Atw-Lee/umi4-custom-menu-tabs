@@ -1,6 +1,5 @@
 {
-  "private": true,
-  "author": "pansoft",
+  "author": "atw-lee <1596064580@qq.com>",
   "scripts": {
     "build": "max build",
     "dev": "cross-env PORT=3000 max dev",
